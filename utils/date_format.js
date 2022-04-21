@@ -2,9 +2,9 @@ function formatDate (date) {
     const dateObj = new Date(date);
     const month = dateObj.getMonth();
     const day = dateObj.getDate();
-    const year = dateObj.getFullYear;
+    const year = dateObj.getFullYear();
 
-    return `${month}/${date}/${year}`
+    return `${month}/${day}/${year}`
 }
 
 module.exports = formatDate;
