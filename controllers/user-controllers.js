@@ -85,9 +85,22 @@ const userController = {
             res.status(400).json(error)
         })
     },
-    
+    // deleteUser({ params }, res) {
+    //     User.findByIdAndDelete({ _id: params.userId })
+    //         .then(userData => {
+    //             if(!userData) {
+    //                 res.status(404).json({ message: 'No user found with that ID.'});
+    //                 return;
+    //             }
+    //             console.log(userData)
+    //             res.json(userData)
+    //         })
+    //         .catch(err => {
+    //             res.status(500).json(err)
+    //         });
+    // }
     deleteUser({ params }, res) {
-        User.findByIdAndDelete({ _id: params.userId })
+        User.findByIdAndRemove({ _id: params.userId })
             .then(userData => {
                 if(!userData) {
                     res.status(404).json({ message: 'No user found with that ID.'});
