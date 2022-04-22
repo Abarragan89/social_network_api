@@ -15,7 +15,7 @@
   npm i
   ```
   ## Usage
-  After running npm i, run npm run watch to start the server. [How To Video Part 1](https://drive.google.com/file/d/1-nQajfK7Dge24TGnI96PAKiuExghcIS0/view) [How to Video Part 2](https://drive.google.com/file/d/1-nQajfK7Dge24TGnI96PAKiuExghcIS0/view)
+  After running npm i, run npm run watch to start the server. [How To Video Part 1](https://drive.google.com/file/d/1-nQajfK7Dge24TGnI96PAKiuExghcIS0/view) [How to Video Part 2](https://drive.google.com/file/d/11xzt7nm_nzZFkMTJd4NS_tt_ZN_xq39i/view)
   ## Contribution
   Fork and make a pull request
   ## Tests
